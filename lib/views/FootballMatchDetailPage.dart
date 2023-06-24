@@ -92,37 +92,6 @@ class _FootballMatchDetailPageState extends State<FootballMatchDetailPage> with 
 
     );
   }
-
-
-
-
-  // Widget _buildMatchStatsSection() {
-  //   return Container(
-  //     padding: EdgeInsets.all(16),
-  //     child: Column(
-  //       children: [
-  //         // 比赛统计信息
-  //         Text(
-  //           '比赛统计',
-  //           style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-  //         ),
-  //         // TODO: 添加比赛统计数据
-  //       ],
-  //     ),
-  //   );
-  // }
-
-  // Widget _buildSelectedTabContent() {
-  //   switch (_selectedIndex) {
-  //     case 0:
-  //       return PlayerRatingSection();
-  //     case 1:
-  //       return _buildMatchStatsSection();
-  //     default:
-  //       return Container();
-  //   }
-  // }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -141,10 +110,10 @@ class _FootballMatchDetailPageState extends State<FootballMatchDetailPage> with 
                   _selectedIndex = index;
                 });
               },
-              labelColor: Colors.black, // 设置选中标签的字体颜色为黑色
+              labelColor: Colors.black,
               indicator: UnderlineTabIndicator(
-                borderSide: BorderSide(width: 3.0, color: Color(0xFF816FFC)), // 设置下划线宽度和颜色
-              ),// 设置选中标签的下划线颜色为紫色
+                borderSide: BorderSide(width: 3.0, color: Color(0xFF816FFC)),
+              ),
             ),
             Expanded(
               child: TabBarView(
@@ -342,22 +311,6 @@ Widget _buildMatchStatsSection() {
     padding: EdgeInsets.all(16),
     child: Column(
       children: [
-        // 比赛统计信息
-        // Row(
-        //   mainAxisAlignment: MainAxisAlignment.spaceAround,
-        //   children: [
-        //     Text(
-        //       '切尔西',
-        //       style: TextStyle(fontSize: 18),
-        //     ),
-        //
-        //     Text(
-        //       '莱斯特城',
-        //       style: TextStyle(fontSize: 18),
-        //     ),
-        //   ],
-        // ),
-        // 射正
         Padding(
           padding: EdgeInsets.all(8.0), // 设置内边距值
           child: Row(

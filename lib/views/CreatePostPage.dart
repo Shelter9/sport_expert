@@ -69,9 +69,6 @@ class _CreatePostPageState extends State<CreatePostPage> {
                   });
                 },
               ),
-
-
-
               SizedBox(height: 16.0),
               ElevatedButton(
                 onPressed: _publishPost,

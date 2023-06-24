@@ -253,11 +253,10 @@ class _RunningPageState extends State<RunningPage> {
                                     context,
                                     MaterialPageRoute(
                                       builder: (context) => ExerciseResultPage(
-                                        // mapImage: 'assets/images/map.jpg',
-                                        distance: 0, // Replace with the actual distance
-                                        calories: 0, // Replace with the actual calories burned
-                                        pace: '0’00”', // Replace with the actual pace
-                                        duration: formattedTime, // Pass the current exercise duration
+                                        distance: 0,
+                                        calories: 0,
+                                        pace: '0’00”',
+                                        duration: formattedTime,
                                       ),
                                     ),
                                   );

@@ -20,27 +20,6 @@ class _RegisterPageState extends State<RegisterPage> {
 
   void _register() {
 
-
-    // 这里可以添加验证账号和密码的逻辑
-    // if (username == '1' && password == '123') {
-    //   setState(() {
-    //     _isLoggedIn = true;
-    //   });
-    // } else {
-    //   showDialog(
-    //     context: context,
-    //     builder: (context) => AlertDialog(
-    //       title: Text('错误'),
-    //       content: Text('账号或密码不正确，请重试'),
-    //       actions: [
-    //         TextButton(
-    //           child: Text('确定'),
-    //           onPressed: () => Navigator.pop(context),
-    //         ),
-    //       ],
-    //     ),
-    //   );
-    // }
   }
 
   // 在StatefulWidget的build方法中定义一个FocusNode

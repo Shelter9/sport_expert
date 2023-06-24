@@ -330,7 +330,7 @@ class _ShopPageState extends State<ShopPage>
                         MaterialPageRoute(builder: (context) => ProductDetailPage()),
                       );
                     },
-                    child:CourseModule(
+                    child:ShopModule(
                           image: AssetImage('assets/images/shang1.png'),
                           title: '即食低脂牛油50g',
                           description1: '限时直降',
@@ -339,7 +339,7 @@ class _ShopPageState extends State<ShopPage>
                           description2: '运动专享',
                           ),
                     ),
-                  CourseModule(
+                  ShopModule(
                     image: AssetImage('assets/images/shang2.png'),
                     title: '加宽加厚健身垫',
                     description1: '限时秒杀',
@@ -348,7 +348,7 @@ class _ShopPageState extends State<ShopPage>
                     price: '¥84',
                     sales: '2w+',
                   ),
-                  CourseModule(
+                  ShopModule(
                     image: AssetImage('assets/images/shang3.png'),
                     title: '智能运动手环 B4',
                     description1: '限时秒杀',
@@ -357,7 +357,7 @@ class _ShopPageState extends State<ShopPage>
                     price: '¥259',
                     sales: '2w+',
                   ),
-                  CourseModule(
+                  ShopModule(
                     image: AssetImage('assets/images/shang4.png'),
                     title: '智能运动手环 B3',
                     description1: '限时秒杀',
@@ -366,7 +366,7 @@ class _ShopPageState extends State<ShopPage>
                     price: '¥199',
                     sales: '1w+',
                   ),
-                  CourseModule(
+                  ShopModule(
                     image: AssetImage('assets/images/shang5.png'),
                     title: '男士训练垫',
                     description1: '限时秒杀',
@@ -375,7 +375,7 @@ class _ShopPageState extends State<ShopPage>
                     price: '¥98',
                     sales: '1076',
                   ),
-                  CourseModule(
+                  ShopModule(
                     image: AssetImage('assets/images/shang6.png'),
                     title: '凝胶掌垫健身手套',
                     description1: '限时秒杀',
@@ -384,7 +384,7 @@ class _ShopPageState extends State<ShopPage>
                     price: '¥62.1',
                     sales: '751',
                   ),
-                  CourseModule(
+                  ShopModule(
                     image: AssetImage('assets/images/shang7.png'),
                     title: '超薄可触控透气跑步臂包',
                     description1: '限时秒杀',
@@ -393,7 +393,7 @@ class _ShopPageState extends State<ShopPage>
                     price: '¥44.1',
                     sales: '583',
                   ),
-                  CourseModule(
+                  ShopModule(
                     image: AssetImage('assets/images/shang8.png'),
                     title: 'Onesize 无尺码瑜伽紧身裤',
                     description1: '限时秒杀',
@@ -419,7 +419,7 @@ class _ShopPageState extends State<ShopPage>
 
 
 }
-class CourseModule extends StatelessWidget {
+class ShopModule extends StatelessWidget {
   final ImageProvider image;
   final String title;
   final String description1;
@@ -428,7 +428,7 @@ class CourseModule extends StatelessWidget {
   final String description2;
 
 
-  CourseModule({
+  ShopModule({
     required this.image,
     required this.title,
     required this.description1,

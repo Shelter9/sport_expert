@@ -162,7 +162,7 @@ class UserInfoSection extends StatelessWidget {
               ),
               SizedBox(height: 16),
               Text(
-                '云南大学',
+                '20201120537 周圣杰',
                 style: TextStyle(fontSize: 20),
               ),
               SizedBox(height: 8),

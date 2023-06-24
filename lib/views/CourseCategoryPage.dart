@@ -185,8 +185,6 @@ class _CourseCategoryPageState extends State<CourseCategoryPage> {
               },
             ),
           ),
-
-
           // 课程内容
           Expanded(
             child: Padding(
@@ -194,13 +192,6 @@ class _CourseCategoryPageState extends State<CourseCategoryPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  // Text(
-                  //   _categories[_selectedIndex],
-                  //   style: TextStyle(
-                  //     fontSize: 24.0,
-                  //     fontWeight: FontWeight.bold,
-                  //   ),
-                  // ),
                   SizedBox(height: 16.0),
                   Expanded(
                     child: ListView.builder(
@@ -246,8 +237,4 @@ class Course {
   Course(this.title, this.imagePath, this.duration, this.traineeCount);
 }
 
-void main() {
-  runApp(MaterialApp(
-    home: CourseCategoryPage(),
-  ));
-}
+

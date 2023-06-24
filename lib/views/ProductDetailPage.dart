@@ -10,15 +10,13 @@ class ProductDetailPage extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // 商品详情的现有代码
                 Stack(
                   children: [
                     Container(
-                      height: 412, // 调整图片板块的高度
+                      height: 412,
                       child: PageView(
                         scrollDirection: Axis.horizontal,
                         children: [
-                          // 这里可以动态添加商品图片
                           Image.asset('assets/prod/p1.png'),
                           Image.asset('assets/prod/p2.png'),
                           Image.asset('assets/prod/p3.png'),
@@ -331,34 +329,6 @@ class ProductDetailPage extends StatelessWidget {
                       // 处理客服按钮点击事件
                     },
                   ),
-                  // Column(
-                  //   children: [
-                  //     IconButton(
-                  //       icon: Icon(Icons.chat_bubble_outline), // 使用客服图标
-                  //       onPressed: () {
-                  //         // 处理客服按钮点击事件
-                  //       },
-                  //     ),
-                  //     // Text(
-                  //     //   '客服',
-                  //     //   style: TextStyle(fontSize: 14, color: Colors.grey),
-                  //     // ),
-                  //   ],
-                  // ),
-                  // Column(
-                  //   children: [
-                  //     IconButton(
-                  //       icon: Icon(Icons.shopping_cart_outlined), // 使用客服图标
-                  //       onPressed: () {
-                  //         // 处理客服按钮点击事件
-                  //       },
-                  //     ),
-                  //     // Text(
-                  //     //   '购物车',
-                  //     //   style: TextStyle(fontSize: 14, color: Colors.grey),
-                  //     // ),
-                  //   ],
-                  // ),
                   ElevatedButton(
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(

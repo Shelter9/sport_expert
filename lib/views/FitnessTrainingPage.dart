@@ -237,8 +237,3 @@ class Exercise {
   });
 }
 
-void main() {
-  runApp(MaterialApp(
-    home: FitnessTrainingPage(),
-  ));
-}

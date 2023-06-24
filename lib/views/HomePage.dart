@@ -177,7 +177,7 @@ class _HomePageState extends State<HomePage>
                 ],
               ),
             ),
-            // 新添加的资讯板块
+
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 10.0),
               child: GridView.count(
@@ -222,7 +222,7 @@ class _HomePageState extends State<HomePage>
                 ],
               ),
             ),
-            // 新添加的课程板块
+
             Container(
               padding: EdgeInsets.all(16.0),
               child: Column(
@@ -251,8 +251,8 @@ class _HomePageState extends State<HomePage>
                             title: '腹部线条初显·HIIT暴汗瘦身腰腹强效系列',
                             description1: '官方精品',
                             description2: '“锁死这节课，腰围瘦了5cm了”',
-                            userImage: AssetImage('assets/images/user.png'),
-                            userName: '减脂塑性的keep君',
+                            userImage: AssetImage('assets/images/ynu2.png'),
+                            userName: '减脂塑性的云大君',
                           ),
                       ),
                       CourseModule(
@@ -261,8 +261,8 @@ class _HomePageState extends State<HomePage>
                         description1: '官方精品',
                         description2: '“不夸张练完瑜伽垫都是汗水”',
                         // description3: '课程描述3',
-                        userImage: AssetImage('assets/images/user.png'),
-                        userName: '减脂塑性的keep君',
+                        userImage: AssetImage('assets/images/ynu2.png'),
+                        userName: '减脂塑性的云大君',
                       ),
                       CourseModule(
                         image: AssetImage('assets/images/course3.png'),
@@ -270,8 +270,8 @@ class _HomePageState extends State<HomePage>
                         description1: '官方精品',
                         description2: '”练完肚子硬硬的“',
                         // description3: '课程描述3',
-                        userImage: AssetImage('assets/images/user.png'),
-                        userName: '减脂塑性的keep君',
+                        userImage: AssetImage('assets/images/ynu2.png'),
+                        userName: '减脂塑性的云大君',
                       ),
                       CourseModule(
                         image: AssetImage('assets/images/course5.png'),
@@ -279,8 +279,8 @@ class _HomePageState extends State<HomePage>
                         description1: '官方精品',
                         description2: '”坚持做完，哪儿哪儿都不疼了“',
                         // description3: '课程描述3',
-                        userImage: AssetImage('assets/images/user.png'),
-                        userName: '减脂塑性的keep君',
+                        userImage: AssetImage('assets/images/ynu2.png'),
+                        userName: '减脂塑性的云大君',
                       ),
                       CourseModule(
                         image: AssetImage('assets/images/course6.png'),
@@ -288,8 +288,8 @@ class _HomePageState extends State<HomePage>
                         description1: '官方精品',
                         description2: '”超级喜欢这门课，拉完很舒服“',
                         // description3: '课程描述3',
-                        userImage: AssetImage('assets/images/user2.png'),
-                        userName: '爱跑步的的keep君',
+                        userImage: AssetImage('assets/images/ynu.png'),
+                        userName: '爱跑步的的云大君',
                       ),
                       CourseModule(
                         image: AssetImage('assets/images/course7.png'),
@@ -297,8 +297,8 @@ class _HomePageState extends State<HomePage>
                         description1: '官方精品',
                         description2: '”可以练腹肌，一个星期肚子就小了“',
                         // description3: '课程描述3',
-                        userImage: AssetImage('assets/images/user.png'),
-                        userName: '减脂塑性的keep君',
+                        userImage: AssetImage('assets/images/ynu2.png'),
+                        userName: '减脂塑性的云大君',
                       ),
                       CourseModule(
                         image: AssetImage('assets/images/course8.png'),
@@ -306,8 +306,8 @@ class _HomePageState extends State<HomePage>
                         description1: '官方精品',
                         description2: '”跟跑一点都不累，真的很解压“',
                         // description3: '课程描述3',
-                        userImage: AssetImage('assets/images/user2.png'),
-                        userName: '爱跑步的的keep君',
+                        userImage: AssetImage('assets/images/ynu.png'),
+                        userName: '爱跑步的的云大君',
                       ),
                       CourseModule(
                         image: AssetImage('assets/images/course9.png'),
@@ -315,8 +315,8 @@ class _HomePageState extends State<HomePage>
                         description1: '官方精品',
                         description2: '”放松的手环跑“',
                         // description3: '课程描述3',
-                        userImage: AssetImage('assets/images/user2.png'),
-                        userName: '爱跑步的的keep君',
+                        userImage: AssetImage('assets/images/ynu.png'),
+                        userName: '爱跑步的的云大君',
                       ),
                       // 添加更多的课程模块...
                     ],
@@ -646,3 +646,4 @@ class MenuItem extends StatelessWidget {
     );
   }
 }
+
